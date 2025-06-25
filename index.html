@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<nav id="desktop-nav">
+    <div class="logo">LSQ</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#experience">Experiências</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+     </div>
+</nav>
+
+<nav id="hamburger-nav">
+   <div class="logo">LSQ</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+     </div>
+</nav>
+
+<section id="profile">
+   <div class="section__pic-container">
+        <img src="img/perfil.png" alt="profile picture" />
+   </div>
+
+   <div class="section__text">
+      <p class="section__text__p1">Olá, eu sou</p>
+      <h1 class="title">Laize Queiroz</h1>
+      <p class="section__text__p2">Analista de dados Jr.</p>
+
+      <div class="btn-container">
+         <button class="btn btn-color-2" onclick="window.open('img/Curriculo2025.pdf')">CV</button>
+         <button class="btn btn-color-1" onclick="location.href='./#contact'">Contato</button>
+      </div>
+      <img src="img/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/LaizeQueiroz'"/>
+        </div>
+   </div>
+</section>
+
+<section id="about">
+   <p class="section__text__p1">Conheça</p>
+   <h1 class="title">Sobre</h1>
+
+   <div class="section-container">
+      <div class="section__pic-container">
+         <img src="img/perfil.png" alt="Profile picture" class="about-pic"/>
+      </div>
+
+      <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="img/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experiência</h3>
+              <p>2+ anos <br />Analista de dados</p>
+            </div>
+
+         <div class="details-container">
+            <img src="img/education.png"alt="Education icon" class="icon" />
+            <h3>Educação</h3>
+            <p>Bacharel /<br />Especialista</p>
+         </div>
+          </div>
+
+         <div class="text-container">
+           <p> Profissional com graduação e especialização em Sistema de Informação e experiência 4 anos de na área de Tecnologia da 
+               Informação, sendo 2 anos de experiência na instalação e atualização de ferramentas de bancos de dados.
+               Hábil no uso das linguagens Python, SQL, C++, HTML, CSS e JavaScript. Perfil dinâmico e proativo, com foco no 
+              aprendizado constante e no trabalho em equipe, a fim de contribuir para o alcance das metas.
+           </p>
+         </div>
+      </div>
+
+   </div>
+      
+   <img src="img/arrow.png" alt="Arrow icon"class="icon arrow"onclick="location.href='./#experience'"/>
+</section>
+
+<section id="experience">
+   <p class="section__text__p1">Explore</p>
+   <h1 class="title">Experiências - Linguagens</h1>
+   <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+               <h2 class="experience-sub-title">Desenvolvedora</h2>
+               <div class="article-container">
+
+               <article>
+                  <img src="img/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experiente</p>
+                </div>
+               </article>
+
+               <article>
+                  <img src="img/checkmark.png"alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experiente</p>
+                </div>
+               </article>
+
+               <article>
+                  <img src="img/checkmark.png" alt="Experience icon"class="icon"/>
+                  <div>
+                     <h3>JavaScript</h3>
+                     <p>Básico</p>
+                  </div>
+               </article>
+
+               <article>
+                  <img src="img/checkmark.png" alt="Experience icon"class="icon"/>
+                  <div>
+                     <h3>React</h3>
+                     <p>Básico</p>
+                  </div>
+               </article>
+
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Analista de Dados</h2>
+            <div class="article-container">
+              <article>
+                <img src="img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img src="img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img src="img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Excel/ PowerBi</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+               <img src="img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Mais recentes</p>
+      <h1 class="title">Projetos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="img/consumindoAPI.png"alt="Project 1" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto 1</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"onclick="location.href='https://github.com/LaizeQueiroz/Consumindo-api'">
+                Github </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://laizequeiroz.github.io/Consumindo-api/'">
+                Live Demo </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="img/calendario.png" alt="Project 2" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto 2</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/LaizeQueiroz/calendario-com-javascript'" >
+                Github </button>
+                
+              <button class="btn btn-color-2 project-btn"onclick="location.href='https://laizequeiroz.github.io/calendario-com-javascript/'" >
+                Live Demo</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="img/SIMULADOR.png"alt="Project 3" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto 3</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/LaizeQueiroz/gerador-jogo-lotofacil?tab=readme-ov-file'" >
+                Github </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://laizequeiroz.github.io/gerador-jogo-lotofacil/'" >
+                Live Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/arrow.png" alt="Arrow icon"class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Entre em contato</p>
+      <h1 class="title">Contato</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="img/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:examplemail@gmail.com">lalasq@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiências</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Portifólio &#169;</p>
+    </footer>
+
+    <script src="script.js"></script>
+ </body>
+</html>
